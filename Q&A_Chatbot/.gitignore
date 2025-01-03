@@ -122,6 +122,9 @@ celerybeat.pid
 
 # Environments
 .env
+.env/
+hf.env
+openapikey.env
 .venv
 env/
 venv/
