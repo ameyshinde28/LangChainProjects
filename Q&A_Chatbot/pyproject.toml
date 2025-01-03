@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "langchainprojects"
+version = "0.1.0"
+description = ""
+authors = ["ameyshinde28 <aammeeyy28@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+langchain = "^0.3.13"
+openai = "^1.58.1"
+langchain-community = "^0.3.13"
+langchain-openai = "^0.2.14"
+langchain-groq = "^0.2.2"
+huggingface-hub = "^0.27.0"
+python-dotenv = "^1.0.1"
+streamlit = "^1.41.1"
+pydantic = "^2.10.4"
+pydantic-settings = "^2.7.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
